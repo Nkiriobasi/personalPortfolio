@@ -27,23 +27,23 @@ const netflix = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            I built this application in React JS and is hosted on GitHub pages.
+            I built this application in React JS and is hosted on Netlify.
             This app features user authentication with firebase as well as the
             firestore cloud storage database. This application is pulling movie
-            data from an the IMDB movie API and displaying different categories.
+            data from the IMDB movie API and displaying different categories.
             It features horizontal sliding and a featured selection. The
             useContext hook is also being implemented for app-wide state
             management.
           </p>
           <a
-            href='https://github.com/fireclint/netflix-react-tailwind'
+            href='https://github.com/Nkiriobasi/netflix-clone'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
           </a>
           <a
-            href='https://fireclint.github.io/netflix-react-tailwind/'
+            href='https://netflix-clone-nk.netlify.app/'
             target='_blank'
             rel='noreferrer'
           >
