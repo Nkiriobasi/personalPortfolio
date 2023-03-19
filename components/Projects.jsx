@@ -4,7 +4,7 @@ import baadayeImg from '../public/assets/projects/baadaye.png';
 import paystackImg from '../public/assets/projects/paystack.png';
 import flutterwaveImg from '../public/assets/projects/flutterwave.png';
 import winampImg from '../public/assets/projects/winamp.png';
-import netflixImg from '../public/assets/projects/netflix.jpg';
+import netflixImg from '../public/assets/projects/netflix.png';
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
