@@ -17,6 +17,13 @@ const Projects = () => {
         <h2 className='py-4'>What I&apos;ve Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
           <ProjectItem
+            title='Netflix App'
+            backgroundImg={netflixImg}
+            projectUrl='/netflix'
+            tech='React JS'
+
+          />
+          <ProjectItem
             title='Baadaye UI Clone'
             backgroundImg={baadayeImg}
             projectUrl='/baadaye'
@@ -43,19 +50,12 @@ const Projects = () => {
             tech='React JS'
 
           />
-          <ProjectItem
+          {/* <ProjectItem
             title='Property Finder'
             backgroundImg={propertyImg}
             projectUrl='/property'
             tech='React JS'
-          />
-          <ProjectItem
-            title='Netflix App'
-            backgroundImg={netflixImg}
-            projectUrl='/netflix'
-            tech='React JS'
-
-          />
+          /> */}
         </div>
       </div>
     </div>
