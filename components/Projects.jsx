@@ -1,5 +1,5 @@
 import React from 'react';
-import propertyImg from '../public/assets/projects/property.jpg';
+import twitterImg from '../public/assets/projects/twitter.png';
 import baadayeImg from '../public/assets/projects/baadaye.png';
 import paystackImg from '../public/assets/projects/paystack.png';
 import flutterwaveImg from '../public/assets/projects/flutterwave.png';
@@ -37,6 +37,12 @@ const Projects = () => {
 
           />
           <ProjectItem
+            title='Twitter Clone'
+            backgroundImg={twitterImg}
+            projectUrl='/twitter'
+            tech='React JS'
+          />
+          <ProjectItem
             title='Flutterwave UI Clone'
             backgroundImg={flutterwaveImg}
             projectUrl='/flutterwave'
@@ -50,12 +56,6 @@ const Projects = () => {
             tech='React JS'
 
           />
-          {/* <ProjectItem
-            title='Property Finder'
-            backgroundImg={propertyImg}
-            projectUrl='/property'
-            tech='React JS'
-          /> */}
         </div>
       </div>
     </div>
